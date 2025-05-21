@@ -1,0 +1,15 @@
+{
+  "hasUpdate": true,                                             // boolean indicating if an update is available
+  "version": "1.0",                                              // string with the new version number
+  "url": "https://nevonatech.com/OTA/sensor-fw-2.5.ino.bin"",   // string with the firmware download URL
+  "size": 123456,                                                // integer with the firmware size in bytes
+  "description": "Bug fixes and improvements",                   // optional string with update description
+  "filters": {                                                   // optional object containing update filters
+    "hardware": ["ESP32", "ESP32-S2"],                           // array of supported hardware models
+    "regions": ["US", "EU"],                                     // array of supported regions
+    "channels": ["stable", "beta"],                              // array of update channels
+    "updateType": "urgent",                                      // string indicating when update is required: 'urgent' or 'scheduled'
+    "deviceIds": ["45bd9e7c", "25bs357d"],                       // array of specific device IDs to receive the update
+    "excludeDeviceIds": ["DEVICE_003", "DEVICE_004"]             // array of device IDs to exclude from the update
+   }
+ }
