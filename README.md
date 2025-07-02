@@ -1,2 +1,2 @@
 # aura.github.io
-Aura Smart Garden website!!!
+Aura Smart Garden Website
