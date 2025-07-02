@@ -1,2 +1,2 @@
 # aura.github.io
-Aura Smart Irrigation 
+Aura Smart Garden 
