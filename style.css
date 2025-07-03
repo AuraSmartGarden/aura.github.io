@@ -63,6 +63,7 @@ p { margin-bottom: var(--spacing-sm); }
 
 .highlight {
     color: var(--primary-color);
+    white-space: nowrap;
 }
 
 a {
@@ -229,8 +230,8 @@ header {
 }
 
 .feature-item img {
-    width: 60px; /* Adjust icon size */
-    height: 60px;
+    width: 150px; /* Extra large icon size */
+    height: 150px;
     margin-bottom: var(--spacing-md);
 }
 
